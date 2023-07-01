@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Tests">
+    <test name="WebUI">
+        <packages>
+            <package name="com.demoqa.tests.*"/> <!-- .* wild card all subpackages >-->
+        </packages>
+
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Elements Tests">
+    <test name="Elements">
+        <classes>
+            <class name="com.demoqa.tests.elementstests.TextBoxTests">
+            </class>
+            <class name="com.demoqa.tests.dataproviders.TextBoxPageDataProviderTests"/>
+            <class name="com.demoqa.tests.elementstests.CheckBoxTests">
+            </class>
+            <class name="com.demoqa.tests.dataproviders.CheckBoxPageDataProviderTests"/>
+            <class name="com.demoqa.tests.elementstests.RadioButtonTests"/>
+            <class name="com.demoqa.tests.elementstests.WebTablesTests"/>
+            <class name="com.demoqa.tests.elementstests.ButtonsTests"/>
+            <class name="com.demoqa.tests.dataproviders.LinksPageDataProviderTests"/>
+            <class name="com.demoqa.tests.elementstests.BrokenLinksTests"/>
+            <class name="com.demoqa.tests.elementstests.UploadAndDownloadTests"/>
+            <class name="com.demoqa.tests.dataproviders.UploadAndDownloadDataProviderTests"/>
+            <class name="com.demoqa.tests.elementstests.DynamicPropertiesTests"/>
+        </classes>
+    </test>
+</suite>

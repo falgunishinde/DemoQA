@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Widgets Tests">
+    <test name="Widgets">
+        <classes>
+            <class name="com.demoqa.tests.interactionstests.SortableTests">
+            </class>
+            <class name="com.demoqa.tests.interactionstests.SelectableTests"/>
+            <class name="com.demoqa.tests.interactionstests.ResizableTests">
+            </class>
+            <class name="com.demoqa.tests.dataproviders.DroppableDataProviderTests"/>
+            <class name="com.demoqa.tests.interactionstests.DroppableTests"/>
+            <class name="com.demoqa.tests.interactionstests.DraggableTests"/>
+        </classes>
+    </test>
+</suite>
